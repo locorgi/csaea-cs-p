@@ -12,9 +12,7 @@ print(a, b, c, d)
 # compound operators += -= /=
 e = 11 % 10
 
-# random number generator
-random_number = random.randint(1, 100)
-print("Random number:", random_number)
+
 #               comparsions  boleans that are alawsy true or false
 # < > <= >= == !=
 print(4<5)
@@ -43,3 +41,38 @@ print(end)
 print(math.sqrt(14))
 print(math.ceil(3.65))
 print(math.floor(8.94))
+print(math.pow(2,4))
+# conditionals
+# if elif else
+t=True
+f=False
+if f:
+    print("Reached the first condition")
+elif t:
+    print("Reached second condition")
+else:
+    print("Reached else")
+
+
+if 1 > 1 and 1 == 1:
+    print("Reached the first condition")
+elif 6 == 7 or 3!=3:
+    print("Reached second condition")
+else:
+    print("Reached else")
+    # lists
+ # a list can hold any type  grow shrink
+nums = [34, 52, 64, 32]
+
+print(nums)
+# list methods
+words = []
+
+words.append("Words 1")
+words.append("Words 2")
+words.append("Words 3")
+print(words)
+words.remove("Words 1")
+words.insert(0, "Words 4")
+print(words)
+
