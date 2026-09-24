@@ -76,3 +76,27 @@ words.remove("Words 1")
 words.insert(0, "Words 4")
 print(words)
 
+# iteration loops
+
+# for loop
+# a for loop will iterate over a range is a range of number
+ # range(stop), range(start, stop), range( start, stop, step)
+for i in range(5):
+    print(i)
+
+
+animal=["sheep, deer, moose"]
+print(f"list:{animal}")
+
+for animal in animal:
+    print(f"We saw {animal}")
+
+
+nums = [5.1, 2.2, 5.3, 3.4, 8.5]
+
+#write a for loop to print each value in list nums
+nums=["5, 2.2, 5.3 "]
+print(f"list:{nums}")
+
+
+
