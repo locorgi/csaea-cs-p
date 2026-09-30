@@ -1,5 +1,5 @@
 import math
-score = 69
+score = 90
  
 if score >= 90 and score <= 100:
     print("A")
@@ -19,10 +19,10 @@ print(C )
 
 start = 10
 
-while start > 0:
+while start > 1:
     start -= 1 
     print(start)
-if start ==0:
+if start ==1:
     print("liftoff")
 
 
@@ -30,7 +30,7 @@ bill = 50
 tip = bill %20
 total = tip + bill
 print(tip)
-print( total) 
+print(total)
 
 password = "csaea2026"
 attempt = "csaea2026"
@@ -39,19 +39,21 @@ if password == attempt :
 else:
     print("Access deined")
 
-students = 23 
-slices_per_student = 2 
-slices_per_pizza = 8 
-
-total_slices = students * slices_per_student
-pizzas_needed = math.ceil(total_slices / slices_per_pizza)
-
-print(pizzas_needed)
-
-
+plate = 4827
+if plate % 2==0:
+    print("park on east side")
+else:
+    print("park on west side")
 first = "Ada"
 last = "Lovelace"
 school = "CSAEA"
+print(f"hello my name is {first} {last} from {school}")
 
-# Combine the variables using string concatenation
-print("Hello, my name is " + first + " " + last + " from " + school)
+cart = [12, 5, 30, 8]
+total_price=0
+for price in cart:
+    total_price += price
+item = len(cart)
+print(f"total_price is ${total_price}")
+print(f"with {item} items in cart")
+
