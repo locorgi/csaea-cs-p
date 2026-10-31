@@ -37,12 +37,14 @@ print(count)
 x = "Radia Perlman"
 y = 34
 z = "Networking Engineer"
-
+print(x,y,z)
 # Challenge 2: Update Variables  
 # Create a variable called 'count' with a value of 10.  
 # Use another variable to increase 'count' by 5
 # Print the result
-
+count=10
+count +=5
+print(count)
 # Challenge 3: Swap Variables  
 # Given variables num = 4 and y = "hello".  
 # Swap the values so that num = "hello" and y = 4. 
