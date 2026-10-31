@@ -32,7 +32,11 @@ a= input("num 1")
 b= input("num 2")
 print(a+b)
 
-# Challenge 4: Custom Die Roll
+# Challenge 3: Custom Die Roll
 # Ask the user to enter how many sides the die should have.
 # Then simulate rolling the die once and print the result.
-import.random
+import random
+
+sides = int(input("Enter the number of sides for the die: "))
+result = random.randint(1, sides)
+print(f"you rolled a {result}!")

@@ -1,39 +1,39 @@
-# STRING MANIPULATION IN PYTHON
-# built-in methods: len(), upper(), lower(), capitalize()
+# # STRING MANIPULATION IN PYTHON
+# # built-in methods: len(), upper(), lower(), capitalize()
 
-# String formatting, string concatination 
+# # String formatting, string concatination 
 
-first_name = "Ada"
-last_name = "Lovelace"
-#Option 1
-print("Hello", first_name, last_name, "!")
-#Concatenation:
-print("Hello" + " " + first_name + " " + last_name + "!")
-#f-strings
-print(f"Hello, {first_name} {last_name}!")
+# first_name = "Ada"
+# last_name = "Lovelace"
+# #Option 1
+# print("Hello", first_name, last_name, "!")
+# #Concatenation:
+# print("Hello" + " " + first_name + " " + last_name + "!")
+# #f-strings
+# print(f"Hello, {first_name} {last_name}!")
 
-# 0 1 2 3 4 
-# H e l l o
-greeting = "Hello"
-second_letter = greeting[1]
-print(second_letter)
+# # 0 1 2 3 4 
+# # H e l l o
+# greeting = "Hello"
+# second_letter = greeting[1]
+# print(second_letter)
 
-# String indexing and slicing
-word = "Super-cali-fragil-istic-expi-ali-docious"
+# # String indexing and slicing
+# word = "Super-cali-fragil-istic-expi-ali-docious"
 
-print("\nThe word is:", word)
-print("First letter is:", word[0])
-print("Last letter is:", word[-1])
-print("Range of letters (non-inclusive:)", word[3:7] )
-print("First five letters:", word[:5])
-print("Everything after the first five letters", word[5:] )
-print("Last seven letters:", word[-7:])
-print("Step through every second character:", word[::2])
-print("String in reverse", word[::-1])
+# print("\nThe word is:", word)
+# print("First letter is:", word[0])
+# print("Last letter is:", word[-1])
+# print("Range of letters (non-inclusive:)", word[3:7] )
+# print("First five letters:", word[:5])
+# print("Everything after the first five letters", word[5:] )
+# print("Last seven letters:", word[-7:])
+# print("Step through every second character:", word[::2])
+# print("String in reverse", word[::-1])
 
-last_name = "    Lovelace"
-length = len(last_name)
-print("Length of string:", length)
+# last_name = "    Lovelace"
+# length = len(last_name)
+# print("Length of string:", length)
 
 
 character = "spOngEbOB SQuArePaNts"
@@ -44,25 +44,25 @@ print("Title format:", character.title())
 
 print()
 
-#find and replace text
-sentence = "I'm a goofy goober."
-new_sentence = sentence.replace("I'm", "You're")
-print(sentence)
-print(new_sentence)
+# #find and replace text
+# sentence = "I'm a goofy goober."
+# new_sentence = sentence.replace("I'm", "You're")
+# print(sentence)
+# print(new_sentence)
 
-#JOIN AND SPLIT
-groceries = "milk,eggs,bread,butter,peanuts"
-print("\nOriginal string: ", groceries)
+# #JOIN AND SPLIT
+# groceries = "milk,eggs,bread,butter,peanuts"
+# print("\nOriginal string: ", groceries)
 
-# Split the string into a Python list, based on a 'delimiter'
-items = groceries.split(",")
-print(items)
+# # Split the string into a Python list, based on a 'delimiter'
+# items = groceries.split(",")
+# print(items)
 
-# Join a Python list back together into a string
-joined = " and ".join(items)
-print(joined)
-print(type(items))
-print(type(joined))
+# # Join a Python list back together into a string
+# joined = " and ".join(items)
+# print(joined)
+# print(type(items))
+# print(type(joined))
 
 
 # Challenge 1: Favorite Quote
@@ -70,16 +70,26 @@ print(type(joined))
 # EXAMPLE OUTPUT:
 # Enter your favorite quote: Those who believe in telekinetics, raise my hand.
 # Your quote is 48 characters long.
+h = input("quet")
+length = len(h)
+print("Length of string:", length)
 
 # Challenge 2:
 # Ask the user to enter a word that is at least 7 characters long. 
 # Print the 2nd through 6th characters.
 # Use string slicing.
-
+word = input("Enter a word that is at least 7 characters long: ")
+print(word[1:6])
 # Challenge 3: Word Mutation
 # Ask for a word and print it in reverse, in uppercase, and lowercase.
 # Example output
 # Enter a word: Python
 # Uppercase: PYTHON
 # Lowercase: python
-# In reverse: nohtyP
+# In reverse: nohty
+
+b=input("your word")
+
+print("\nLowercase:", b.lower())
+print("Uppercase:", b.upper())
+print("String in reverse", b[::-1])
