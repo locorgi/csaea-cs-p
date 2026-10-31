@@ -64,3 +64,18 @@ print(f"random number is, {num} square root is,{square_root} rounded is, {rounde
 
 base= random.randint(1, 6)
 exponent= random.randint(1, 6)
+
+
+# Challenge 3: Random Square Root
+# Use random library to pick a number between 1 and 75. Store it in "num".
+# Use math library to find its square root.
+# Print the number, its square root, and the square root rounded UP with the math library.
+
+num = random.randint(1, 75)
+sqrt_val = math.sqrt(num)
+sqrt_rounded_up = math.ceil(sqrt_val)
+
+print(num)
+print(sqrt_val)
+print( sqrt_rounded_up)
+
