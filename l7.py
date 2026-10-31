@@ -79,10 +79,17 @@ if day is not "Monday":
 # Example output:
 # Enter your age: 15
 # You can watch PG-13 movies.
+b= int(input("Enter your age: "))
 
+if b < 13:
+  print("You can watch PG or G movies.")
+elif 13 <= b<= 17:
+  print("You can watch PG-13 movies.")
+else:
+  print("You can watch any movie.")
 # Challenge 2: Leap Year
 # Rules:
-#   - Years divisible by 4 are leap years...
+#   - ")Years divisible by 4 are leap years...
 #   - ...unless they're divisible by 100, then they're NOT leap years...
 #   - ...unless they're also divisible by 400, then they ARE leap years.
 # Example output:
@@ -90,3 +97,8 @@ if day is not "Monday":
 # 1900 is not a leap year.
 # (Test: 2024 -> leap, 1900 -> not, 2000 -> leap)
 # These are all leap years: 1600, 1692, 1996, 2000, 2004, 2020, and 2024
+b= int(input("yera"))
+if b % 4 == 0:
+    print("it a leap year ")
+else :
+    print("print not leap year")
