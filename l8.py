@@ -1,8 +1,4 @@
- LISTS IN PYTHON
-# Lists store multiple values in one variable.
-# They are ordered, mutable (changeable), and allow duplicates.
 
-empty_list = []
 
 # CREATE LISTS
 animals = ["donkey", "pangolin", "blobfish"]
@@ -55,6 +51,11 @@ print(animals)
 # Add three items of your choice using `.append()`.
 # Then insert one extra item at the second position and remove one item of your choice.
 # Finally, print the final shopping list.
+shopping= []
+shopping.append("milk")
+shopping.append("chease")
+shopping.append("egg")
+print(shopping)
 print()
 
 nums = [3, 7, 1, 9, 4, 2, 5, 8, 6, 0]
@@ -84,3 +85,9 @@ else:
 
 # Create a list of five floats called measurements.
 # Print the length, minimum, maximum, and sum of the list using built-in functi
+measurements = [1.5, 3.2, 0.8, 4.1, 2.7]
+
+print("ength:", len(measurements))
+print("inimum:", min(measurements))
+print("Maximum:", max(measurements))
+print("Sum:", sum(measurements))
