@@ -95,6 +95,23 @@ def adder(a, b):
     print(a + b)
     return a + b
 
+def minu(a, b):
+    print(a -b)
+    return a -b
+
+def mut(a, b):
+    print(a * b)
+    return a * b
+
+def div(a, b):
+    print(a /b)
+    return a / b
+
+
+adder(3,3)
+minu(3,3)
+mut(3,3)
+div(1,3)
 sum = adder(1,3)
 sum_two = adder(234,9)
 print(sum)
@@ -105,14 +122,22 @@ print(sum_two)
 # 1) accepts five numbers
 # 2) returns the average
 # 3) print the returned value outside the function
-
+def av(a,b,c,d,e):
+    o=a+b+c+d+e
+    print(o/5)
+    return(o/5)
+av(3,3,3,4,2)
 # Challenge 3
 # Make a function called is_even that:
 # 1) accepts one number
 # 2) prints "Even" if the number is even
 # 3) prints "Odd" if the number is odd
-
-
+def num(a):
+    if a % 2 == 0: 
+       print("even")
+    else:
+     print("odd")
+num(57)
 # Challenge 4
 # Use the pseudocode below to write code:
 # Make a function called "analyze_word" that counts how many vowels and consonants are in a word

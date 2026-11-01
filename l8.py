@@ -44,6 +44,11 @@ print(animals)
 # Ask the user to enter a new integer.
 # Replace the **third integer** in the original list with the user’s input, and then print the updated list.
 # *Hint: use indexing and assignment.*
+numbers = [1, 2, 3, 4, 5, 6]
+user_input = int(input("Enter a new integer: "))
+numbers[2] = user_input
+print( numbers)
+
 
 ### **Challenge 2: Shopping List Manager**
 
